@@ -30,7 +30,9 @@ Built against Phonegap 3.3.0.
 
 4. In the plugins section of your Resources/config.xml file, add the following:
 
-        <plugin name="AppsFlyerPlugin" value="AppsFlyerPlugin"/>
+    		<feature name="AppsFlyerPlugin">
+        		<param name="ios-package" value="AppsFlyerPlugin" />
+			</feature>
         
 ## API
 
